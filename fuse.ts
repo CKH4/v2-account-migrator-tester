@@ -5,6 +5,7 @@ const fuse = fusebox({
 	entry: "src/index.ts",
 	webIndex: {
 		template: "src/index.html",
+		publicPath: "./docs",
 	},
 	devServer: {
 		enabled: true,
@@ -39,6 +40,6 @@ const fuse = fusebox({
 
 fuse.runDev({
 	bundles: {
-		distRoot: "docs"
+		distRoot: "docs",
 	}
 })
