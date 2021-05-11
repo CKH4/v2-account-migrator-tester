@@ -5,7 +5,7 @@ const fuse = fusebox({
 	entry: "src/index.ts",
 	webIndex: {
 		template: "src/index.html",
-		publicPath: "./docs",
+		publicPath: "./",
 	},
 	devServer: {
 		enabled: true,
