@@ -37,4 +37,8 @@ const fuse = fusebox({
 	}
 })
 
-fuse.runDev()
+fuse.runDev({
+	bundles: {
+		distRoot: "docs"
+	}
+})
